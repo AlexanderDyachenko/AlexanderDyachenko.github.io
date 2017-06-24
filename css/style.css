@@ -501,7 +501,7 @@ input::-webkit-input-placeholder {
 	transition: all 0.4s;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px)  {
 /*HEADER*/
 .main-item_1 h2{
 	font-size: 4rem;
@@ -628,6 +628,9 @@ font-size: 1.5rem;
 	/*DESIGNERS*/
 	.designers{
 		height: 50rem;
+	}
+	.designers-text p{
+
 	}
 	.designers-text h4{
 		font-size: 1.3rem;
