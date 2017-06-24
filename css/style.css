@@ -501,14 +501,19 @@ input::-webkit-input-placeholder {
 	transition: all 0.4s;
 }
 
-@media only screen and (max-width: 480px)  {
+@media only screen and (min-width: 320px) and (max-width: 480px)  {
 /*HEADER*/
 .main-item_1 h2{
-	font-size: 4rem;
+	font-size: 3rem;
 }
 .main-item_1{
 	padding-top: 8rem;
 }
+.main-item_1 button{
+	padding: 10px 10px;
+	font-size: 1.3rem;
+}
+
 	/*ABOUT*/
 	.about-text p{
 font-size: 1rem;
@@ -523,7 +528,7 @@ font-size: 1rem;
 		font-size: 1.5rem;
 	}
 	.about{
-		height: 60rem;
+		height: 85rem;
 	}
 	.about-text{
 		padding: 10rem 10rem;
@@ -555,10 +560,13 @@ font-size: 1.5rem;
 		height: 70rem;
 	}
 	.design img{
-		width: 30rem;
+		width: 25rem;
+		margin-left: 50%;
+		transform: translateX(-50%);
 	}
 	.design-text p{
 		margin-top: 11rem;
+		font-size: 1.3rem;
 	}
 	.design-text{
     
@@ -604,7 +612,7 @@ font-size: 1.5rem;
 		margin-top: 10rem;
 	}
 	.logo-clients img{
-		width: 8rem;
+		width: 5.5rem;
 		margin-right: 0.5rem;
 	}
 	/*WEB-BROWSER*/
@@ -623,7 +631,7 @@ font-size: 1.5rem;
 		font-size: 1.3rem;
 	}
 	.browser-text img{
-		width: 40rem;
+		width: 30rem;
 	}
 	/*DESIGNERS*/
 	.designers{
