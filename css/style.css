@@ -43,11 +43,8 @@ position: relative;
 	padding-top: 3rem;
 }
 .main-btn{
-	position: relative;
 	display: block;
-	left:50%;
-	transform: translateX(-50%);
-	margin-top: 2rem;
+	margin: 0 auto;
 	background-color: #ff6d6d;
 	color: #fff;
 	border:none;
@@ -501,7 +498,7 @@ input::-webkit-input-placeholder {
 	transition: all 0.4s;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px)  {
+@media  (min-width: 320px) and (max-width: 480px)  {
 /*HEADER*/
 .main-item_1 h2{
 	font-size: 3rem;
@@ -561,8 +558,9 @@ font-size: 1.5rem;
 	}
 	.design img{
 		width: 25rem;
-		margin-left: 50%;
-		transform: translateX(-50%);
+		display: block;
+		margin: 0 auto;
+		margin-top: 5rem;
 	}
 	.design-text p{
 		margin-top: 11rem;
@@ -635,7 +633,7 @@ font-size: 1.5rem;
 	}
 	/*DESIGNERS*/
 	.designers{
-		height: 50rem;
+		height: 60rem;
 	}
 	.designers-text p{
 
@@ -648,18 +646,27 @@ font-size: 1.5rem;
 		font-size: 2.5rem;
 	}
 	.designers-input{
+		width: 80%
 		padding-top: 3.5rem;
-		margin-left: 50%;
-		transform: translateX(-50%);
+		margin: 0 auto;
 	}
 	.designers-input input{
+		margin:0;
 		margin-top: 2rem;
 	}
 	.designers-btn{
 		display: block;
 		margin-top: 2rem;
+		margin-bottom: 2rem;
 	}
 	.text-bottom p{
 		font-size: 1.3rem;
 	}
+	
+	.footer-item:nth-child(4) {
+    padding-left: 3rem;
+}
+.footer-item:first-child {
+	padding-left: 8rem;
+}
 }
