@@ -64,23 +64,13 @@ position: relative;
 .about{
 	min-height: 450px;
  height: 70rem;
- background-color: #fff;
+ background:url(../img/desc-bg.png)no-repeat center center;
+ -webkit-background-size: cover;
+ background-size: cover;
  z-index: 1;
 }
-.about-right{
-	height: 80rem;
-	width: 50rem;
-	background-color: #ececec;
-	float: right;
-	position: relative;
-}
-.about-triangle-bottomright{
-	position: absolute;
-    bottom: 0;
-    right:0;
-	border-bottom: 45rem solid #fb8686; 
-	border-left: 45rem solid transparent;
-}
+
+
 .about-text{
 	display: inline-block;
 	padding: 15rem 15rem;
@@ -507,6 +497,7 @@ input::-webkit-input-placeholder {
 	padding-top: 8rem;
 }
 .main-item_1 button{
+	margin-top: 2rem;
 	padding: 10px 10px;
 	font-size: 1.3rem;
 }
@@ -525,10 +516,10 @@ font-size: 1rem;
 		font-size: 1.5rem;
 	}
 	.about{
-		height: 85rem;
+		height: 60rem;
 	}
 	.about-text{
-		padding: 10rem 10rem;
+		padding: 5rem 5rem;
 	}
 	/*AWESOME*/
 	.awesome-text h4{
@@ -611,7 +602,7 @@ font-size: 1.5rem;
 	}
 	.logo-clients img{
 		width: 5.5rem;
-		margin-right: 0.5rem;
+		margin-right: 1.3rem;
 	}
 	/*WEB-BROWSER*/
 .web-browser{
@@ -662,11 +653,30 @@ font-size: 1.5rem;
 	.text-bottom p{
 		font-size: 1.3rem;
 	}
-	
+	.footer-item p{
+		font-size: 1.8rem;
+	}
+	.footer-title{
+		font-size: 3rem;
+	}
+	.footer li{
+		font-size: 2rem;
+	}
 	.footer-item:nth-child(4) {
     padding-left: 3rem;
 }
 .footer-item:first-child {
 	padding-left: 8rem;
 }
+
+}
+@media  (min-width: 481px) and (max-width: 577px){
+	.design img{
+		width: 25rem;
+		display: block;
+		margin: 0 auto;
+	}
+	.browser-text img{
+		width: 30rem;
+	}
 }
