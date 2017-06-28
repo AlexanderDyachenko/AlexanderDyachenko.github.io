@@ -1,6 +1,7 @@
 /*Базовые настройки*/
 *{
 	box-sizing: border-box;
+	transition: all 0.2s;
 }
 body{
 	font-family: 'Exo', sans-serif;
@@ -145,20 +146,14 @@ padding-top: 3rem;
 	min-height: 450px;
 	height: 60rem;
 	position: relative;
+	background:url(../img/design/resp-bg.png)no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 .design img{
 	position: relative;
 	z-index: 5;
 	margin: 8rem 8rem;
-}
-.triangle-bottomleft{
-	position: absolute;
-	bottom: 0;
-	width: 0;
-	height: 0;
-	border-bottom: 60rem solid #fb8686; 
-	border-right: 45rem solid transparent;	
-	z-index: 4;
 }
 .design-text{
 	position: absolute;
@@ -311,7 +306,7 @@ color: #ff6d6d;
 	color: #e3e2e4;
 }
 .designers-text img{
-	position: absolute;
+	/*position: absolute;*/
 	left: 98rem;
 	    padding-top: 5rem
 }
@@ -574,9 +569,11 @@ font-size: 1.5rem;
 	/*Клиенты*/
 	.clients{
 		height: 130rem;
+		margin-top: -5rem;
 	}
 	.container-clients{
 		height: 130rem;
+		margin-top: -5rem;
 	}
 	.box-clients{
 		display: block;
@@ -597,12 +594,14 @@ font-size: 1.5rem;
 		width: 6rem;
 	}
 	.logo-clients{
-		margin-left: 0rem;
+		width: 100%;
+		margin-left: 1rem;
 		margin-top: 10rem;
 	}
 	.logo-clients img{
-		width: 5.5rem;
-		margin-right: 1.3rem;
+		width: 4.8rem;
+		margin-right: 1rem;
+		
 	}
 	/*WEB-BROWSER*/
 .web-browser{
@@ -671,6 +670,27 @@ font-size: 1.5rem;
 
 }
 @media  (min-width: 481px) and (max-width: 577px){
+.main-item{
+	padding-top: 13rem;
+}	
+.main-item_1 h2{
+	font-size: 4rem;
+}
+.main-btn{
+	margin-top: 2rem;
+}
+.about-text{
+	padding: 10rem 10rem;
+}
+.about-text h3{
+font-size: 2rem;
+}
+.about-text p{
+	font-size: 1.4rem;
+}
+.about-text h4 {
+font-size: 1.4rem;
+}
 	.design img{
 		width: 25rem;
 		display: block;
@@ -678,5 +698,13 @@ font-size: 1.5rem;
 	}
 	.browser-text img{
 		width: 30rem;
+	}
+	.design-text{
+    
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30rem; 
+    width: 30rem;
+    
 	}
 }
