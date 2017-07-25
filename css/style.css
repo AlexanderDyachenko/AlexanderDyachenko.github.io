@@ -46,6 +46,7 @@ position: relative;
 .main-btn{
 	display: block;
 	margin: 0 auto;
+	margin-top: 2rem;	
 	background-color: #ff6d6d;
 	color: #fff;
 	border:none;
@@ -667,6 +668,7 @@ font-size: 1.5rem;
 .footer-item:first-child {
 	padding-left: 8rem;
 }
+
 
 }
 @media  (min-width: 481px) and (max-width: 577px){
