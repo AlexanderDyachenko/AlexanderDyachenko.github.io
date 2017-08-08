@@ -1,0 +1,108 @@
+body {
+  background: url(../img/bg.png) center center;
+  background-size: cover;
+}
+.container {
+  margin-top: 50px;
+  margin-left: 400px;
+}
+.tab-content {
+  background-color: #03a3d7;
+  width: 630px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.nav-tabs {
+  width: 630px;
+  border-bottom: none;
+  margin-left: 3rem;
+}
+.form-black {
+  width: 580px;
+  height: 380px;
+  padding-left: 40px;
+  padding-top: 50px;
+  border-radius: 5px;
+  background-color: #000;
+}
+.form-black a {
+  color: #c51f03;
+  margin-left: 30px;
+}
+.form-black .checkbox {
+  display: inline-block;
+  margin-left: 30px;
+}
+.form-black .checkbox-1 {
+  display: inline-block;
+  margin-left: 10px;
+}
+.form-black button {
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  background: #fff;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 40px;
+  background: radial-gradient(#e02504, #7f0501);
+  border: none;
+  margin-left: 307px;
+  -webkit-box-shadow: 0px 0px 200px rgba(255, 255, 255, 0.3);
+          box-shadow: 0px 0px 200px rgba(255, 255, 255, 0.3);
+  outline: none;
+}
+.form-black button::after {
+  content: '';
+  position: absolute;
+  left: 45px;
+  border: 7px solid transparent;
+  border-left: 7px solid #7f0501;
+  border-top: 7px solid #7f0501;
+  margin-left: 70px;
+  margin-top: 39px;
+}
+.form-black .password {
+  margin-bottom: 50px;
+}
+.input-form {
+  display: block;
+  background: url(../img/input.png);
+  background-size: cover;
+  border: none;
+  font-size: 24px;
+  width: 480px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.nav-tabs > li > a {
+  width: 100px;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  margin-right: 13px;
+  border-top: none;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color: #fff;
+  text-shadow: 1px 1px 2px #333;
+  background-color: #03a5da;
+  border: none;
+}
+::-webkit-input-placeholder {
+  color: #fff;
+}
+::-moz-placeholder {
+  color: #fff;
+}
+/* Firefox 19+ */
+:-moz-placeholder {
+  color: #fff;
+}
+/* Firefox 18- */
+:-ms-input-placeholder {
+  color: #fff;
+}
