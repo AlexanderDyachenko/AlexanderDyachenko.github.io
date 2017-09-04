@@ -2,20 +2,28 @@
 	box-sizing: border-box;
 
 }
+
+
 @font-face {
-	font-family: 'From Where You Are';
-	src: url('FromWhereYouAre.eot');
-	src: url('FromWhereYouAre.eot?#iefix') format('embedded-opentype'),
-		url('FromWhereYouAre.woff2') format('woff2'),
-		url('FromWhereYouAre.woff') format('woff'),
-		url('FromWhereYouAre.ttf') format('truetype'),
-		url('FromWhereYouAre.svg#FromWhereYouAre') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: Solomon Sans Light;
+  src: url("../fonts/Solomon Sans Light.otf");
 }
+@font-face {
+  font-family: Solomon Sans Black;
+  src: url("../fonts/Solomon Sans Black.otf");
+}
+@font-face {
+  font-family: Solomon Sans Bold;
+  src: url("../fonts/Solomon Sans Bold.otf");
+}
+@font-face {
+  font-family: Solomon Sans Book;
+  src: url("../fonts/Solomon Sans Book.otf");
+}
+
 .menu{
-	padding-top: 60px;
-	padding-bottom: 40px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 
 }
 .menu-header{
@@ -29,6 +37,7 @@
 			text-decoration: none;
 			margin-right: 70px;
 			color: black;
+			font-family: Calibri Bold;
 			&:nth-child(2){
 				margin-right: 1px;
 
@@ -58,7 +67,6 @@ p{
 	color:white;
 	text-align: center;
 	font-family:Solomon Sans Light;
-	font-weight: 300;
 }
 .logotype{
 		text-align: center;
@@ -67,7 +75,8 @@ p{
 	.main{
 		&-text{
 			margin-bottom: 60px;
-			font-family:Solomon Sans Black Regular;
+			font-family:Solomon Sans Black;
+			font-weight: 400;
 
 		}
 		&-btn{
@@ -80,6 +89,7 @@ p{
 			color:white;
 			border-radius: 10px;
 			margin-bottom: 20px;
+			font-family: Solomon Sans Light;
 		}
 		&-up{
 			display: block;
@@ -87,4 +97,51 @@ p{
 			margin-bottom: 80px;
 		}
 
+	}
+	.abouts{
+		border-right: 3px solid black;
+		img{
+			width: 150px;
+			display: block;
+			margin: 0 auto;
+		}
+		h2{
+			font-size: 90px;
+			font-family:Solomon Sans Bold Bold;
+			margin-bottom: 100px;
+			text-align: center;
+
+		}
+		.avtor{
+			text-align: center;
+			font-size: 30px;
+			font-family:Solomon Sans Bold;
+
+		}
+		p{
+			font-size: 14px;
+			font-family:Solomon Sans Book;
+
+		}
+	}
+	.about-text{
+		width: 400px;
+		h2{
+
+			font-family: Solomon Sans Bold;
+		}
+	}
+	.opis{
+		margin-top: 20px;
+		span{
+			margin-bottom: 20px;
+			font-family: Solomon Sans Bold;
+			font-size: 20px;
+		}
+
+	}
+	.media{
+	}
+	.media-object{
+		/* margin-top: 10px; */
 	}
