@@ -1,0 +1,80 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@font-face {
+  font-family: 'From Where You Are';
+  src: url('FromWhereYouAre.eot');
+  src: url('FromWhereYouAre.eot?#iefix') format('embedded-opentype'), url('FromWhereYouAre.woff2') format('woff2'), url('FromWhereYouAre.woff') format('woff'), url('FromWhereYouAre.ttf') format('truetype'), url('FromWhereYouAre.svg#FromWhereYouAre') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.menu {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.menu-header {
+  font-size: 20px;
+  font-style: bold;
+  vertical-align: middle;
+}
+.menu-header ul {
+  list-style: none;
+}
+.menu-header ul a {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 70px;
+  color: black;
+}
+.menu-header ul a:nth-child(2) {
+  margin-right: 1px;
+}
+.menu-header ul a:last-child {
+  margin-right: 1px;
+}
+.menu-header .logo {
+  text-align: center;
+}
+.main {
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 81%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 81%, 0% 100%);
+  background-color: #353535;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.main p {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+.section-header {
+  color: white;
+  text-align: center;
+  font-family: Solomon Sans Light;
+  font-weight: 300;
+}
+.logotype {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.main-text {
+  margin-bottom: 60px;
+  font-family: Solomon Sans Black Regular;
+}
+.main-btn {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  padding: 15px 50px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.main-up {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
