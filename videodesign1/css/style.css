@@ -90,7 +90,7 @@
   margin-bottom: 80px;
 }
 .abouts {
-  border-right: 3px solid black;
+  border-right: 4px solid #353535;
 }
 .abouts img {
   width: 150px;
@@ -118,14 +118,117 @@
 .about-text h2 {
   font-family: Solomon Sans Bold;
 }
-.opis {
-  margin-top: 20px;
+.about-icon {
+  display: table;
+  padding-left: 0;
+  list-style-type: none;
 }
-.opis span {
-  margin-bottom: 20px;
+.about-icon li {
+  padding: 1rem;
+}
+.about-icon li span {
+  display: table-cell;
+  vertical-align: middle;
   font-family: Solomon Sans Bold;
   font-size: 20px;
 }
-.media-object {
-  /* margin-top: 10px; */
+.main-icon {
+  display: table-cell;
+  vertical-align: middle;
+}
+.main-icon img {
+  width: auto;
+  margin-right: 30px;
+}
+.razd {
+  margin-left: -30px;
+  width: 400px;
+  background-color: #353535;
+  color: white;
+  margin-bottom: 10px;
+}
+.razd span {
+  font-family: Solomon Sans Bold;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.tv {
+  margin-left: -30px;
+  width: 500px;
+  background-color: #353535;
+  color: white;
+  margin-bottom: 14px;
+}
+.tv span {
+  font-family: Solomon Sans Bold;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.intro {
+  margin-left: -30px;
+  width: 600px;
+  background-color: #353535;
+  color: white;
+  margin-bottom: 40px;
+}
+.intro span {
+  font-family: Solomon Sans Bold;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.about-btn {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  padding: 15px 70px;
+  background: none;
+  border: 2px solid #353535;
+  color: #353535;
+  border-radius: 10px;
+  margin-bottom: 85px;
+  font-family: Solomon Sans Light;
+  font-size: 20px;
+}
+.servicess {
+  background-color: #353535;
+  -webkit-clip-path: polygon(0 24%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 24%, 100% 0, 100% 100%, 0% 100%);
+  padding-top: 150px;
+}
+.services {
+  border-right: 4px solid white;
+}
+.services-text h2 {
+  font-size: 90px;
+  font-family: Solomon Sans Bold;
+  margin-bottom: 100px;
+  text-align: center;
+  color: white;
+}
+.services-text h3 {
+  color: white;
+  font-family: Solomon Sans Bold;
+}
+.about-icons {
+  display: table;
+  padding-left: 0;
+  list-style-type: none;
+}
+.about-icons li {
+  padding: 1rem;
+}
+.about-icons li span {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Solomon Sans Bold;
+  font-size: 20px;
+  color: white;
+}
+.main-icons {
+  display: table-cell;
+  vertical-align: middle;
+}
+.main-icons img {
+  width: auto;
+  margin-right: 15px;
 }
